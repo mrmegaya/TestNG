@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [test_suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="Before Class(failed)">
+    <parameter name="username" value="Megaya"/>
+    <classes>
+      <class name="advanced.ParallelTesting">
+        <methods>
+          <include name="OpenBing"/>
+          <include name="OpenGoogle"/>
+        </methods>
+      </class> <!-- advanced.ParallelTesting -->
+    </classes>
+  </test> <!-- Before Class(failed) -->
+</suite> <!-- Failed suite [test_suite] -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="test_suite">
+    <test name="Before Class">
+    <parameter name="username" value="Megaya"/>
+        <classes>
+            <class name="advanced.Parameterization"/>
+        </classes>
+    </test>
+</suite>

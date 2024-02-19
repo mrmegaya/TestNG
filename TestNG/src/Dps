@@ -1,0 +1,21 @@
+Single Input using String[] class
+------------------------------------
+String[] data= {"2879725"};	
+	@DataProvider(name="IDs")
+	public String[] issueidDataprovider()
+	{		
+		return data;
+	}
+	
+Double input String using 2 dimensional Array[][]
+------------------------------------	
+@DataProvider(name="IDs")
+    public Object[][] getData() {
+        Object[][] data = new Object[1][2];
+        // 1st row
+        data[0][0] = "Raghu19";
+        data[0][1] = "Raghu@000";        
+		return data;
+	}
+	
+	

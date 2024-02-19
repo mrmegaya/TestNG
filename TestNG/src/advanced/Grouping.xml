@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="testsuite2">
+    <test name="Grouping">
+    <groups>
+            <run>
+                <include name="Samsung"/>
+                <include name="Vivo"/>
+            </run>
+     </groups>
+        <classes>
+            <class name="advanced.Grouping_testcases"/>
+        </classes>
+    </test>
+</suite>
